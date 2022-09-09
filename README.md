@@ -1,8 +1,7 @@
 # ravindasenarath-webflux-non-edge-service
 
 To build native image
- - Set JDK to GraalVM
- - 
+ - Set JDK to [GraalVM](https://www.graalvm.org/)
  ```console
  ./mvn -Pnative clean package -DskipTests
  ```
