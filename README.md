@@ -2,7 +2,12 @@
 
 To build native image
  - Set JDK to GraalVM
- - ./mvn -Pnative clean package -DskipTests
+ - 
+ ```console
+ ./mvn -Pnative clean package -DskipTests
+ ```
  
 Run native image
- - ./target/vehicle-service
+```console
+./target/vehicle-service
+```
